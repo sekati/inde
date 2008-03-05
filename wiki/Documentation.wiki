@@ -51,6 +51,20 @@ INDE ships with a few peripheral projects in its customized workspace to support
 
 There are a number of useful key-bindings INDE adds as well as several native to FDT and Eclipse WTP. Here is a brief listing of the more useful hot keys - for more please see [http://code.google.com/p/fdtkit/wiki/Shortcuts FDTKit Shortcut Wiki]. 
 
-*Note*: `CTRL` should be replaced with `Command` for MacOS X.
-
-|| *Key* || *Functionality* ||
+|| *Key* || _Functionality_ ||
+|| CTRL + S || SVN Commit||
+|| CTRL + Z || SVN Revert||
+|| CTRL + A|| SVN Add||
+|| CTRL + U|| SVN Update||
+|| CTRL + I|| SVN Ignore||
+|| CTRL + L|| SVN Cleanup||
+|| CTRL + W|| Edit Working Set||
+|| CTRL + O|| Outline View||
+|| CTRL + T|| Ant View||
+|| CTRL + E|| Flash Explorer View||
+|| CTRL + C|| Console View||
+|| CTRL + F|| FDT Perspective||
+|| CTRL + P|| PHP Perspective||
+|| CTRL + N|| SVN Perspective||
+|| CTRL + R|| Refresh||
+|| CMD + Return|| Run Default Ant Task||
