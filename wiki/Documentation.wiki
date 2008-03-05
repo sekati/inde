@@ -68,3 +68,8 @@ There are a number of useful key-bindings INDE adds as well as several native to
 || CTRL + N|| SVN Perspective||
 || CTRL + R|| Refresh||
 || CMD + Return|| Run Default Ant Task||
+
+
+== Additional Licenses and Copyrights ==
+
+By installing this product, in addition to the Sekati LLC license terms, you also agree to be bound by the third-party terms, provided to you within the product plugin documentation. Sekati LLC recommends that you review these third-party terms.
