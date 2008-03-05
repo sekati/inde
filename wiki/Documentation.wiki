@@ -1,4 +1,4 @@
-#summary INDE - INteractive Development Environment
+#summary INDE Documentation
 #labels Featured,Phase-Deploy,Phase-Design
 
 {{{
