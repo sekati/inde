@@ -1,9 +1,9 @@
-#summary INDE - The In(teractive|tegrated|dependent) Development Environment
+#summary INDE - INteractive INdependent Development Environment
 #labels Featured,Phase-Deploy,Phase-Design
 
 = Documentation =
 
-*INDE* _Version 1.0.0 | BETA | 20080105_ - Copyright © 2008 Sekati LLC and its licensors. All rights reserved.
+*INDE* _Version 1.0.0 | BETA_ - Copyright © 2008 Sekati LLC and its licensors. All rights reserved.
 
 This document contains important information. Review this information before using this version of INDE.
 
