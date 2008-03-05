@@ -1,17 +1,6 @@
 #summary INDE Documentation
 #labels Featured,Phase-Deploy,Phase-Design
 
-{{{
- ______   __  __  ____    ____      
-/\__  _\ /\ \/\ \/\  _`\ /\  _`\    
-\/_/\ \/ \ \ `\\ \ \ \/\ \ \ \L\_\  
-   \ \ \  \ \ , ` \ \ \ \ \ \  _\L  
-    \_\ \__\ \ \`\ \ \ \_\ \ \ \L\ \
-    /\_____\\ \_\ \_\ \____/\ \____/
-    \/_____/ \/_/\/_/\/___/  \/___/ 
-                                    
-}}}
-
 = Documentation =
 
 *INDE* _Version 1.0.0 | BETA_ - Copyright © 2008 Sekati LLC and its licensors. All rights reserved.
