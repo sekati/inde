@@ -1,4 +1,4 @@
-#summary INDE - INteractive INdependent Development Environment
+#summary INDE - INteractive Development Environment
 #labels Featured,Phase-Deploy,Phase-Design
 
 {{{
@@ -56,6 +56,20 @@ INDE ships with a few peripheral projects in its customized workspace to support
   # Launch INDE.app and do an SVN Update (_CNTRL+U_) on fdtkit, sekati and sasapi projects to insure you have the latest utilities and frameworks. Feel free to adjust or add new core libraries as needed.
 
 * Please note that INDE must be installed in `/Applications/inde` and your workspace remain `/Applications/inde/workspace` to function properly. If desired you may create an alias to a more convenient location such as your home directory or desktop.
+
+
+== INDE Project Previewing ==
+
+If you would like to preview your INDE projects in the browser during development you may alter MacOS X's apache httpd.conf to do so (INDE ships with a workspace properly configured for local web hosting), simply follow the steps below:
+
+  # Insure you are currently running Apache by going to `System Preferences -> Sharing` and make sure `Web Sharing` is ticked `On`.
+  # Open the `Terminal` application and type: `sudo nano /etc/apache2/httpd.conf`
+  # Location the line: `DocumentRoot "/Library/WebServer/Documents"` and change it to: `DocumentRoot "/Applications/inde/workspace"`
+  # Locate the line: `<Directory "/Library/WebServer/Documents">` and change it to: `<Directory "/Applications/inde/workspace"> `.
+  # Save the configuration file by entering the key combination: `Control + X`, then confirm with `Y`.
+  # Enter `sudo apachectl graceful` into your Terminal session to restart apache.
+  # Finally open your browser and point it to [http://localhost http://localhost]: you are now able to browse your workspace projects.
+
 
 
 == INDE Key-Binding ==
