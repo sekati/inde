@@ -1,0 +1,17 @@
+#summary Who's responsible for this?
+#labels Featured
+
+= Credits =
+
+INDE was built and is maintained by  [http://sekati.com Jason M Horwitz, Sekati LLC], thanks largely to the direct and indirect contributions via knowledge and code sharing of several friends, colleagues and other open source projects.
+
+== People of mention ==
+
+  * [http://tendercreative.com Cory Clarke]
+  * [http://famouser.com Steven Baughman]
+  * [http://lmnopj.com/ PJ Ahlberg]
+  * [http://partlyhuman.com/ Roger Braunstein]
+
+== Places of mention ==
+
+  * [http://tendercreative.com TENDER] - who has dedicated billable hours to this Open Source project (whenever we can find them ;-).
