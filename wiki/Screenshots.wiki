@@ -15,4 +15,4 @@ http://inde.sekati.com/lib/branding/collateral/dockIcon.png
 
 = Application Screenshot = 
 
-[http://inde.sekati.com/lib/branding/collateral/screenshot_small.png http://inde.sekati.com/lib/branding/collateral/screenshot.png]
+[http://inde.sekati.com/lib/branding/collateral/screenshot.png http://inde.sekati.com/lib/branding/collateral/screenshot_small.png]
