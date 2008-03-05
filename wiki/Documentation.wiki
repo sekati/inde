@@ -50,3 +50,7 @@ INDE ships with a few peripheral projects in its customized workspace to support
 == INDE Key-Binding ==
 
 There are a number of useful key-bindings INDE adds as well as several native to FDT and Eclipse WTP. Here is a brief listing of the more useful hot keys - for more please see [http://code.google.com/p/fdtkit/wiki/Shortcuts FDTKit Shortcut Wiki]. 
+
+*Note*: `CTRL` should be replaced with `Command` for MacOS X.
+
+|| *Key* || *Functionality* ||
