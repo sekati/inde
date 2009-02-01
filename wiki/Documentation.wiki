@@ -60,22 +60,29 @@ Part of the INDE Installer process configures and starts the built-in apache web
 There are a number of useful key-bindings INDE adds as well as several native to FDT and Eclipse WTP. Here is a brief listing of the more useful hot keys - for more please see [http://code.google.com/p/fdtkit/wiki/Shortcuts FDTKit Shortcut Wiki]. 
 
 || *Key* || _Functionality_ ||
-|| CTRL + S || SVN Commit||
-|| CTRL + Z || SVN Revert||
-|| CTRL + A|| SVN Add||
-|| CTRL + U|| SVN Update||
-|| CTRL + I|| SVN Ignore||
-|| CTRL + L|| SVN Cleanup||
-|| CTRL + W|| Edit Working Set||
-|| CTRL + O|| Outline View||
-|| CTRL + T|| Ant View||
-|| CTRL + E|| Flash Explorer View||
-|| CTRL + C|| Console View||
-|| CTRL + F|| FDT Perspective||
-|| CTRL + P|| PHP Perspective||
-|| CTRL + N|| SVN Perspective||
-|| CTRL + R|| Refresh||
-|| CMD + Return|| Run Default Ant Task||
+|| CTRL + S || SVN Commit ||
+|| CTRL + Z || SVN Revert ||
+|| CTRL + A || SVN Add ||
+|| CTRL + U || SVN Update ||
+|| CTRL + I || SVN Ignore ||
+|| CTRL + L || SVN Cleanup||
+|| CTRL + E || SVN Export ||
+|| CTRL + B || SVN Branch/Tag ||
+|| CTRL + R || SVN Rename/Refactor ||
+|| CTRL + O || Outline View ||
+|| CTRL + T || Ant View ||
+|| CTRL + C || Console View ||
+|| CTRL + F || FDT Perspective ||
+|| CTRL + D || Debug Perspective ||
+|| CTRL + P || PHP Perspective ||
+|| CTRL + N || SVN Perspective ||
+|| CTRL + J || JavaScript Perspective||
+|| CTRL + X || Remote System Explorer Perspective ||
+|| CMD + R || Refresh||
+|| CMD + 1  / CTRL + 1 || Quick Fix || 
+|| CTRL + ENTER || Run Launch Profile ||
+|| CMD + Return || Run Default Ant Task||
+|| CTRL + F11 || Run ||
 
 
 == Additional Licenses and Copyrights ==
