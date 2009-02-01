@@ -3,27 +3,28 @@
 
 = Documentation =
 
-*INDE* _Version 1.0.0 | BETA_ - Copyright © 2008 Sekati LLC and its licensors. All rights reserved.
+*INDE* _Version 1.1.0 | PUBLIC BETA_ - Copyright © 2009 Sekati LLC and its licensors. All rights reserved.
 
-This document contains important information. Review this information before using this version of INDE.
+This file contains important information. Review this information before using this version of INDE.
 
 
 == What is INDE ==
 
-INDE is an _Integrated Development Environment_ designed to deliver a standardized Eclipse platform that meets the needs of the interactive developer. INDE aims to not only fill the void between Adobe® Flash™ and Flex™ Builder™ but also provided a central platform for other web, RIA and new media developments (such as PHP, HTML, CSS, XML-XSLT, JavaScript, Java EEE,  SQL and more). It is important to note that INDE is a custom pre-configured Eclipse distribution built using many key open source and commercial plugins (please check the What's Included section below for more details on required commercial licenses).
+INDE is an Integrated Development Environment designed to deliver a standardized Eclipse platform that meets the needs of the interactive developer. INDE aims to not only fill the void between Adobe® Flash™ and Flex™ Builder™ but also provided a central platform for other web, RIA and other new media developments (such as PHP, HTML, CSS, XML-XSLT, JavaScript, Java EEE,  SQL and more). It is important to note that INDE is a custom pre-configured Eclipse distribution built using many key open source and commercial plugins (please check the What's Included section below for more details on required commercial licenses).
 
 
 == What's Included ==
 
 INDE is built using the following Open Source plugins:
 
-  * [http://www.eclipse.org/webtools/ Eclipse WTP] - Web Tools Platform 2.0.1 Release Build: R-2.0.1-20070926042742
-  * [http://subclipse.tigris.org/ Subclipse]
-  * [http://www.phpeclipse.net/ PHPEclipse]
-  * [http://fdt.powerflasher.com/ FDT3]
+  * [http://www.eclipse.org/ Eclipse] - Ganymede SR1
   * [http://www.eclipse.org/mylyn/ Mylyn]
+  * [http://subclipse.tigris.org/ Subclipse]
+  * [http://www.eclipse.org/webtools/ WTP]
+  * [ http://www.eclipse.org/pdt/ PDT]
+  * [http://fdt.powerflasher.com/ FDT]
 
-INDE ships with a few peripheral projects in its customized workspace to support FDT and and Flash™/Flex™ Development "out of the box":
+INDE ships with a few peripheral projects to support FDT and Flash™/Flex™ Development:
   * [http://fdtkit.googlecode.com/ FDTKit]
   * [http://sekati.googlecode.com/ Sekati API]
   * [http://sasapi.googlecode.com/ SASAPI]
@@ -31,18 +32,19 @@ INDE ships with a few peripheral projects in its customized workspace to support
 
 == Requirements ==
 
-  * MacOS X 10.4 or later.
+  * MacOS X 10.5 or later.
   * Minimum Processor: >= 1Ghz Intel, G4, G5 recommended.
-  * Minimum Memory: >= 1Gb.
-  * Mimimum Disk Space: >= 600Mb
-  * Java VM >= 1.4.x
+  * Minimum Memory: >= 2Gb.
+  * Mimimum Disk Space: >= 1Gb
+  * Java VM >= 1.5.x
+  * Flash CS4 (optional)
 
 
 == Getting Started ==
 
-  # Set your Flash ASO Cache in FDT preferences (`preferences->fdt->Flash->Flash ASO Directory`) e.g: `/Users/jason/Library/Application Support/Adobe/Flash CS3/en/Configuration/Classes/aso`
+  # Set your Flash ASO Cache in FDT preferences (`preferences->fdt->Flash->Flash ASO Directory`) e.g: `/Users/jason/Library/Application Support/Adobe/Flash CS4/en/Configuration/Classes/aso`
   # Register your own key for the commercial FDT 3 plugin key (`preferences->fdt->key management`).
-  # Launch INDE.app and do an SVN Update (_CNTRL+U_) on fdtkit, sekati and sasapi projects to insure you have the latest utilities and frameworks. Feel free to adjust or add new core libraries as needed.
+  # Launch INDE.app and do an SVN Update (_CNTRL+U_) on _fdtkit, sekati & sasapi_ projects to insure you have the latest utilities and frameworks. Feel free to adjust or add new core libraries as needed.
 
 *Please Note:* INDE _must_ be installed in `/Applications/inde` and your workspace remain `/Applications/inde/workspace` to function properly. If desired you may create an alias to a more convenient location such as your home directory or desktop.
 
