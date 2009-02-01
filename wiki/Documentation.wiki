@@ -21,7 +21,7 @@ INDE is built using the following Open Source plugins:
   * [http://www.eclipse.org/mylyn/ Mylyn]
   * [http://subclipse.tigris.org/ Subclipse]
   * [http://www.eclipse.org/webtools/ WTP]
-  * [ http://www.eclipse.org/pdt/ PDT]
+  * [http://www.eclipse.org/pdt/ PDT]
   * [http://fdt.powerflasher.com/ FDT]
 
 INDE ships with a few peripheral projects to support FDT and Flash™/Flex™ Development:
