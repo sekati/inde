@@ -1,4 +1,4 @@
-#summary Whet your appetite before the Public Beta
+#summary Public Beta Screenshots
 #labels Featured
 
 = Splash =
