@@ -17,7 +17,8 @@ INDE is an Integrated Development Environment designed to deliver a standardized
 
 INDE is built using the following Open Source plugins:
 
-  * [http://www.eclipse.org/ Eclipse] - Ganymede SR1
+  * [http://www.eclipse.org/ Eclipse - Ganymede SR1]
+  * [http://www.eclipse.org/dsdp/tm/ Remote System Explorer]
   * [http://www.eclipse.org/mylyn/ Mylyn]
   * [http://subclipse.tigris.org/ Subclipse]
   * [http://www.eclipse.org/webtools/ WTP]
