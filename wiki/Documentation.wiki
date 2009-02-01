@@ -51,16 +51,7 @@ INDE ships with a few peripheral projects to support FDT and Flash™/Flex™ De
 
 == INDE Project Previewing ==
 
-If you would like to preview your INDE projects in the browser during development you may alter MacOS X's apache httpd.conf to do so (INDE ships with a workspace properly configured for local web hosting), simply follow the steps below:
-
-  # Insure you are currently running Apache by going to `System Preferences -> Sharing` and make sure `Web Sharing` is ticked `On`.
-  # Open the `Terminal` application and type: `sudo nano /etc/apache2/httpd.conf`
-  # Location the line: `DocumentRoot "/Library/WebServer/Documents"` and change it to: `DocumentRoot "/Applications/inde/workspace"`
-  # Locate the line: `<Directory "/Library/WebServer/Documents">` and change it to: `<Directory "/Applications/inde/workspace"> `.
-  # Save the configuration file by entering the key combination: `Control + X`, then confirm with `Y`.
-  # Enter `sudo apachectl graceful` into your Terminal session to restart apache.
-  # Finally open your browser and point it to [http://localhost http://localhost]: you are now able to browse your workspace projects.
-
+Part of the INDE Installer process configures and starts the built-in apache web browser and directs it to your workspace to ease development, testing and debugging. After install has completed you may direct your browser to [http://localhost http://localhost] to view your workspace.
 
 
 == INDE Key-Binding ==
