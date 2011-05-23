@@ -8,4 +8,9 @@ Unlike INDE v1, INDE v2 does not include an installer, instead follow the few st
   # Unzip `inde2.zip` and place it in your `/Applications directory` (e.g. `/Applications/inde2/`).
   # Inside the `inde2` directory you will find a folder named `FDTTemplates`. Copy `FDTTemplates` to: `/Users/your-username/Library/Application Support/`. 
   # Rename `/Users/your-username/Library/Application Support/FDTTemplates`to `/Users/your-username/Library/Application Support/FDT`.
-  # Next we will configure your Apache Webserver to point to the *INDE2 workspace*: Open `Terminal.app` & type `sudo /etc/apache2/httpd.conf`.
+  # Next we will configure your Apache Webserver to point to the *INDE2 workspace*: Open `Terminal.app` & type `sudo nano /etc/apache2/httpd.conf`.
+  # Locate the `DocumentRoot` line in your conf file (e.g. `DocumentRoot "/Library/WebServer/Documents"`).
+  # Change this line to read `DocumentRoot "/Applications/inde2/workspace"`.
+  # Locate the `Directory` line in your conf file (e.g. `<Directory "/Library/WebServer/Documents">`).
+  # Change this line to read `<Directory "/Applications/inde2/workspace">`.
+  # Within the `<Directory>` node insure/change the `AllowOverride` to read: `AllowOverride All`.
