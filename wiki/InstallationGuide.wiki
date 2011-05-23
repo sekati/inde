@@ -1,5 +1,5 @@
+#summary INDE2 Installation Guide
 #labels Featured,Phase-Implementation,Phase-Deploy
-#INDE2 Installation Guide
 
 = Installation =
 
@@ -20,3 +20,5 @@ Unlike INDE v1, INDE v2 does not include an installer, instead follow the few st
   # Now navigate to `http://localhost/` and you should see your prettified INDE2 workspace:
 
 [http://inde.sekati.com/lib/branding/collateral/inde2/workspace.png]
+
+  # You are now ready to Launch *inde2.app* and begin development. Please refer to the [http://code.google.com/p/inde/wiki/Documentation Documentation Wiki] for more information!
