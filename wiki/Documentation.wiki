@@ -3,7 +3,7 @@
 
 = Documentation =
 
-*INDE* _Version 1.1.0 | PUBLIC BETA_ - Copyright © 2009 Sekati LLC and its licensors. All rights reserved.
+*INDE* _Version 1.1.0 | PUBLIC BETA_ - Copyright © 2011 Sekati LLC and its licensors. All rights reserved.
 
 This file contains important information. Review this information before using this version of INDE.
 
