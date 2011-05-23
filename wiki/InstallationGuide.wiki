@@ -19,4 +19,4 @@ Unlike INDE v1, INDE v2 does not include an installer, instead follow the few st
   # Lastly, restart apache by typing `sudo apachectl graceful` into`Terminal.app`.
   # Now navigate to `http://localhost/` and you should see your prettified INDE2 workspace:
 
-[]
+[http://inde.sekati.com/lib/branding/collateral/inde2/workspace.png]
