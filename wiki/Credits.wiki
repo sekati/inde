@@ -11,3 +11,7 @@ INDE was built and is maintained by  [http://sekati.com Jason M Horwitz, Sekati 
   * [http://tendercreative.com Cory Clarke]
   * [http://famouser.com Steven Baughman]
   * [http://partlyhuman.com/ Roger Braunstein]
+
+== Places of mention ==
+
+  * [http://tendercreative.com TENDER] - who has dedicated billable hours to this Open Source project (whenever we can find them ;-).
