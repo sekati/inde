@@ -16,3 +16,7 @@
 = Themes = 
 
 [http://inde.sekati.com/lib/branding/collateral/inde2/themes.png]
+
+= Workspace = 
+
+[http://inde.sekati.com/lib/branding/collateral/inde2/workspace.png]
