@@ -14,3 +14,9 @@ Unlike INDE v1, INDE v2 does not include an installer, instead follow the few st
   # Locate the `Directory` line in your conf file (e.g. `<Directory "/Library/WebServer/Documents">`).
   # Change this line to read `<Directory "/Applications/inde2/workspace">`.
   # Within the `<Directory>` node insure/change the `AllowOverride` to read: `AllowOverride All`.
+  # Now locate the line that reads `Include /private/etc/apache2/extra/httpd-vhosts.conf` - comment this line out by putting a `#` character in front of it (e.g. `#Include /private/etc/apache2/extra/httpd-vhosts.conf`).
+  # FInally, save the httpd.conf file by typing `Control+X`then `Y` to save the file.
+  # Lastly, restart apache by typing `sudo apachectl graceful` into`Terminal.app`.
+  # Now navigate to `http://localhost/` and you should see your prettified INDE2 workspace:
+
+[]
