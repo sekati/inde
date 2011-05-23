@@ -5,5 +5,6 @@
 
 Unlike INDE v1, INDE v2 does not include an installer, instead follow the few steps below to install and configure INDE2 for your system.
 
-  # Unzip *inde2.zip* and place it in your `/Applications directory` (e.g. `/Applications/inde2/`).
-  # 
+  # Unzip `inde2.zip` and place it in your `/Applications directory` (e.g. `/Applications/inde2/`).
+  # Inside the `inde2` directory you will find a folder named `FDTTemplates`. Copy `FDTTemplates` to: `/Users/*your-username*/Library/Application Support/`. 
+  # Rename `/Users/*your-username*/Library/Application Support/FDTTemplates`to `/Users/*your-username*/Library/Application Support/FDT`
