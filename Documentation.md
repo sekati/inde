@@ -1,0 +1,105 @@
+# Documentation #
+
+**INDE** _Version 2.0.0 | PUBLIC BETA_ - Copyright © 2011 Sekati LLC and its licensors. All rights reserved.
+
+This file contains important information. Review this information before using this version of INDE.
+
+
+## What is INDE ##
+
+INDE is an _Integrated Development Environment_ designed to deliver a standardized Eclipse distribution that meets the needs of the interactive developer/team.
+
+INDE aims to not only fill the void between FlashTM BuilderTM & FDT but also provided a central platform for other mobile, web, RIA and other new media developments (such as PHP, HTML, CSS, XML-XSLT, JavaScript, Java EEE, SQL and more) while focusing on a standardized workspace, streamlining Eclipse's workflow and integrating team version control (SVN/Git).
+
+It is important to note that INDE is a custom, pre-configured Eclipse distribution built using many key open source and commercial plugins (please check the _What's Included_ section below for more details on required commercial licenses).
+
+
+## What's New? ##
+
+A highly customized Eclipse "Galileo"/FDT4/WTP/PDT base with better performance, stability & feature set including:
+
+  * INDE2 is now a 64-bit Eclipse Distribution!
+  * Sekati Flash Project Wizard - FDT Template!
+  * OpenScreenManager.app - FDT Template Support
+  * Air Mobile Development Project Templates & Wizards (Android/iOS)!
+  * Updated library of many Code Completion Templates
+  * Updated FlexSDK's beyond FDT Core Libraries: Flex 3.5, 4.0, 4.1, 4.5
+  * Large library of Code Color Themes & Color Theme support from [eclipsecolorthemes.org](http://eclipsecolorthemes.org)
+  * Better support for HTML/5, CSS3, JavaScript, PHP, SQL!
+  * New Subversive SVN plugin!
+  * New Git Version Control Support!
+  * Better Apache Workspace Indexing, Icons, INDE Branding (for better ad hoc presentation)!
+  * ... much much more!
+
+
+## What's Included ##
+
+INDE is built using the following plugins:
+
+  * [Eclipse](http://www.eclipse.org/)
+  * [Subversive / SVNKit 1.7](http://www.eclipse.org/subversive/)
+  * [EGit / JGit](http://www.eclipse.org/egit/)
+  * [PDT](http://www.eclipse.org/pdt/)
+  * [WTP](http://www.eclipse.org/webtools/)
+  * [Eclipse Color Themes](http://www.eclipsecolorthemes.org/)
+  * [FDT](http://fdt.powerflasher.com/)
+
+INDE ships with a few peripheral projects to support FDT and Flash™/Flex™ Development:
+  * [Sekati API](http://sekati.googlecode.com/)
+  * [Tweener](http://tweener.googlecode.com/)
+
+
+## Requirements ##
+
+  * MacOS X 10.5 or later.
+  * Minimum Processor: >= 1Ghz 64-bit Intel.
+  * Minimum Memory: >= 2Gb.
+  * Mimimum Disk Space: >= 2Gb
+  * Java VM >= 1.6.x
+  * Flash CS5 (optional)
+
+
+## Getting Started ##
+
+  1. Set your Flash ASO Cache in FDT preferences (`preferences->fdt->Flash->Flash ASO Directory`) e.g: `/Users/jason/Library/Application Support/Adobe/Flash CS4/en/Configuration/Classes/aso`
+  1. Register your own key for the commercial FDT 5 plugin key (`Help->FDT License`).
+  1. Launch INDE2.app and do an SVN Update (_CNTRL+U_) on _sekati & sasapi_ projects to insure you have the latest utilities and frameworks. Feel free to adjust or add new core libraries as needed.
+
+**Please Note:** INDE _must_ be installed in `/Applications/inde2` and your workspace remain `/Applications/inde2/workspace` to function properly. If desired you may create an alias to a more convenient location such as your home directory or desktop.
+
+
+## INDE Key-Binding ##
+
+There are a number of useful key-bindings INDE adds as well as several native to FDT and Eclipse WTP. Here is a brief listing of the more useful hot keys - for more please see [FDTKit Shortcut Wiki](http://code.google.com/p/fdtkit/wiki/Shortcuts).
+
+| **Key** | _Functionality_ |
+|:--------|:----------------|
+| CTRL + S | SVN Commit |
+| CTRL + Z | SVN Revert |
+| CTRL + A | SVN Add |
+| CTRL + U | SVN Update |
+| CTRL + I | SVN Ignore |
+| CTRL + L | SVN Cleanup|
+| CTRL + E | SVN Export |
+| CTRL + B | SVN Branch/Tag |
+| CTRL + R | SVN Rename/Refactor |
+| CTRL + O | Outline View |
+| CTRL + T | Ant View |
+| CTRL + C | Console View |
+| CTRL + F | FDT Perspective |
+| CTRL + P | Profiler Perspective |
+| CTRL + D | Debug Perspective |
+| CTRL + H | PHP Perspective |
+| CTRL + N | SVN Perspective |
+| CTRL + G | Git Perspective|
+| CTRL + J | JavaScript Perspective|
+| CTRL + X | Remote System Explorer Perspective |
+| CMD + R | Refresh|
+| CMD + 1  / CTRL + 1 | Quick Fix |
+| CMD + ENTER | Run/Debug |
+| CTRL + ENTER | Run/Debug (Last Launched)|
+
+
+## Additional Licenses and Copyrights ##
+
+By installing this product, in addition to the Sekati LLC license terms, you also agree to be bound by the third-party terms, provided to you within the product plugin documentation. Sekati LLC recommends that you review these third-party terms.
